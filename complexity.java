@@ -9,7 +9,7 @@ public class Exercise3
 	static int line(int N) 
 	{
 		 int result = 1;
-		 for (int i=1; i< N; i*=2) // <-- O(logN)
+		 for (int i=1; i< N; i*=2) 
 			 result+=2;
 		 return result;
 	}
